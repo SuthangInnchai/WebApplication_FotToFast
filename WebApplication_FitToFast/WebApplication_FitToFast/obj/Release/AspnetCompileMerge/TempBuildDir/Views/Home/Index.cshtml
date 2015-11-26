@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<body class="bg-homepage">
+    <div>
+        <div class="padding" style="margin-top:170px">
+            <div class="content-text">
+                @if (Request.IsAuthenticated == false)
+                {
+                    <div >
+                        <br />
+                        <h1 class="welcom-font1" style="text-align:center;">FITTOFAST</h1>
+                        <hr class="hr" />
+                        <h2 class="welcom-font2" style="text-align:center;"> Manage your stock easier</h2>
+                        <div style="text-align:center">
+                            <a href="~/Account/Login" class="btn btn-circle btn-login">Log in</a>
+                        </div>
+                        <br />
+                    </div>
+                }
+
+                else
+                {
+                    <div>
+                        <br />
+                        <h1 class="welcom-font1" style="text-align:center;">FITTOFAST</h1>
+                        <hr class="hr" />
+                        <h2 class="welcom-font2" style="text-align:center;"> Manage your stock easier</h2>
+                        <br />
+                    </div>
+                }
+            </div>
+        </div>
+        
+        
+    </div>
+    
+</body>

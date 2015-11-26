@@ -1,0 +1,114 @@
+﻿@model WebApplication_FitToFast.Models.ProductStore
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ProductStore</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.typeId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.typeId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.pName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.pName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.pDetail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.pDetail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.pPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.pPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.pImage)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.pImage)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.pTexture)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.pTexture)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.XS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.XS)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.S)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.S)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.M)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.M)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.L)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.L)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.XL)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.XL)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.pId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,48 @@
+﻿@model IEnumerable<WebApplication_FitToFast.Models.Inventory>
+
+@{
+    ViewBag.Title = "Index";
+}
+<body class="bg-stockManagr">
+    <h2 class="login-font" style="margin-left:150px">Stock Manage List</h2>
+    <hr class="hr-2" />
+    <p style="margin-left:150px" class="font-fammily">
+        @Html.ActionLink("Create New", "Create", null, new { @class="my-class"})
+    </p>
+    <table  style="margin-left:150px; margin-right:150px;" class="font-fammily" >
+
+                @for (int i = 1; i <= Model.Count(); i++)
+                {
+
+                    if (i % 4 == 1)
+                    {
+                    @Html.Raw("<tr>")
+                    }
+
+                    <td class="padding-table">
+                        <div class="testimonials">
+                            <div class="stock-img-round">
+                                <img alt="" src="~/ProductImages/@Model.ElementAt(i-1).pImage" width="250" height="250" style="align-items:center;">
+                            </div>
+                        </div>
+                        <div style="text-align:center;">
+
+                            <h5>@Html.DisplayFor(model => Model.ElementAt(i-1).pName)</h5>
+                            <h6>@Html.DisplayFor(model => Model.ElementAt(i-1).pDetail)</h6>
+                            <h6>@Html.DisplayFor(model => Model.ElementAt(i-1).pPrice)</h6>
+                            <a href="~/Products/Edit/@Model.ElementAt(i-1).pId" class="btn btn-circle-sm">Edit</a>|
+                            <a href="~/Products/Details/@Model.ElementAt(i-1).pId" class="btn btn-circle-sm">Detail</a> |
+                            <a href="~/Products/Delete/@Model.ElementAt(i-1).pId" class="btn btn-circle-sm">Delete</a>
+                            
+                        </div>
+                    </td>
+                   
+                    if (i % 4 == 0 || i == Model.Count())
+                    {
+                        @Html.Raw("</tr>")
+                    }
+            }
+            
+    </table>
+</body>
+

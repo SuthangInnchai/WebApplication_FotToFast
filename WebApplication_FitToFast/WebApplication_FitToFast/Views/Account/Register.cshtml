@@ -1,0 +1,68 @@
+﻿@model WebApplication_FitToFast.Models.RegisterViewModel
+@{
+    ViewBag.Title = "Add new employee";
+    ViewBag.Title2 = "Sign up";
+}
+
+<body class="bg-register">
+    
+    <div style="text-align:center; margin-top:50px; margin-left:300px; margin-right:300px; border-radius:15px;" class="padding-register" ><br />
+       
+        @if (Request.IsAuthenticated && User.IsInRole("Admin"))
+        {
+            <h2 class="login-font" style="margin-left:50px;">@ViewBag.Title.</h2>
+        }
+        else
+        {
+            <h2 class="login-font" style="margin-left:50px;">@ViewBag.Title2.</h2>
+        }
+        @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+        {
+
+            @Html.AntiForgeryToken()
+
+                <hr style="width:700px; " />
+                @Html.ValidationSummary("", new { @class = "text-danger" })
+                <div class="form-group login-font-sub">
+                    @Html.LabelFor(m => m.Name, new { @class = "col-md-5 control-label", style = "color:#bbbaba;" })
+                    <div class="col-md-5">
+                        @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+                    </div>
+                </div>
+            
+                <div class="form-group login-font-sub">
+                    @Html.LabelFor(m => m.LastNname, new { @class = "col-md-5 control-label", style = "color:#bbbaba;" })
+                    <div class="col-md-5">
+                        @Html.TextBoxFor(m => m.LastNname, new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="form-group login-font-sub">
+                    @Html.LabelFor(m => m.Username, new { @class = "col-md-5 control-label", style = "color:#bbbaba;" })
+                    <div class="col-md-5">
+                        @Html.TextBoxFor(m => m.Username, new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="form-group login-font-sub">
+                    @Html.LabelFor(m => m.Password, new { @class = "col-md-5 control-label", style = "color:#bbbaba;" })
+                    <div class="col-md-5">
+                        @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="form-group login-font-sub">
+                    @Html.LabelFor(m => m.ConfirmPassword, new { @class = "col-md-5 control-label", style = "color:#bbbaba;" })
+                    <div class="col-md-5">
+                        @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
+                    </div>
+                </div>
+               
+                <div class="form-group login-font-sub">
+                    <div class="col-md-offset-2 col-md-8">
+                        <input type="submit" class="btn btn-circle btn-circle-sm" value="Register" /> | <a href="~/UserManage/Index" class="btn btn-circle btn-circle-sm">Back</a>
+                    </div>
+                </div>
+        }       
+        @section Scripts {@Scripts.Render("~/bundles/jqueryval")}
+        <br /></div>
+    
+    </body>    
+

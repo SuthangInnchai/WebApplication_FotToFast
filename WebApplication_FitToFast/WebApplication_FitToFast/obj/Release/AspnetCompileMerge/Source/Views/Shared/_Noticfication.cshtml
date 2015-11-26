@@ -1,0 +1,38 @@
+﻿@model IEnumerable<WebApplication_FitToFast.Models.Inventory>
+
+@if (Request.IsAuthenticated && User.IsInRole("Admin"))
+{
+    <div class="navbar navbar-inverse navbar-fixed-top font-fammily">
+        <div class="container">
+
+            <ul class="nav navbar-nav nav-pills" role="tablist">
+                <li class="nadropdown">
+                    <a href="#" class="dropdown-toggle material-icons" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-size:30px;color:gray;">
+                        notifications
+                    </a>
+
+                    <ul class="dropdown-menu">
+
+                        @for (int i = 1; i <= Model.Count(); i++)
+                        {
+                            if (Model.ElementAt(i - 1).XS <= 3 || Model.ElementAt(i - 1).S <= 3 || Model.ElementAt(i - 1).M <= 3 || Model.ElementAt(i - 1).L <= 3 || Model.ElementAt(i - 1).XL <= 3)
+                            {
+                                <li>
+                                    <div class="row">
+                                        <div class="dl-horizontal left col-xs-3 col-sm-2"><img src="~/ProductImages/@Model.ElementAt(i-1).pImage" width="30px;" height="30px;" /></div>
+                                        <div class="col-xs-7 col-sm-10"><a href="~/Products/Details/@Model.ElementAt(i-1).pId" style="color:red"> @Model.ElementAt(i - 1).pName in stock close to empty. Please...check your stock.</a></div>
+                                    </div>
+                                </li>
+                                <li role="separator" class="divider"></li>
+                            }
+
+                        }
+
+
+                        <li><a href="~/Products/Index/" style="color:blue">Check the all products in stock</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+}

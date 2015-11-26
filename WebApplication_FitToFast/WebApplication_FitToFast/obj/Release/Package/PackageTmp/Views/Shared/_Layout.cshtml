@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   
+    @using WebApplication_FitToFast.Models;
+</head>
+<body>
+
+    @if (Request.IsAuthenticated == true)
+    {
+        <div class="navbar navbar-inverse navbar-fixed-top font-fammily">
+            <div class="container">
+                <div class="navbar-header navbar-inner">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    @Html.ActionLink("FitToFast", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                </div>
+
+
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav nav-pills" role="tablist">
+                        
+
+
+                        @if (Request.IsAuthenticated && User.IsInRole("Admin"))
+                        {
+                            <li>@Html.ActionLink("Employee Manages", "Index", "UserManage")</li>
+                            <li>@Html.ActionLink("Stock Manage", "Index", "Products")</li>
+                            <li>@Html.ActionLink("Statistic", "StatisticIndex", "StatisticView")</li> 
+                            
+                          
+                                             
+                              @*
+            <li class="nadropdown">
+                <a href="#" class="dropdown-toggle material-icons" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-size:30px;color:gray;">
+                    notifications
+                </a>
+
+                <ul class="dropdown-menu">
+                    <li>
+                        <div class="row">
+                            <div class="col-xs-7 col-sm-12"><a href="~/Products/Details/3" style="color:red"> "3rd shirt" in stock close to empty. Please...check your stock.</a></div>
+                        </div>
+                    </li>
+                    <li role="separator" class="divider"></li>
+                    <li>
+                        <div class="row">
+
+                            <div class="col-xs-7 col-sm-12"><a href="~/Products/Details/13" style="color:red"> "Polo limited collection" in stock close to empty. Please...check your stock.</a></div>
+                        </div>
+                    </li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="~/Products/Index/" style="color:blue">Check the all products in stock</a></li>
+                </ul>
+            </li>
+       
+                                            *@
+                           
+                        }             
+                            
+                       
+    
+                        @if (Request.IsAuthenticated && User.IsInRole("Employee"))
+                        {
+                            <li>@Html.ActionLink("Update Inventory", "Index", "Inventories")</li>
+                            <li>@Html.ActionLink("Statistic", "StatisticIndex", "StatisticView")</li>
+                        }
+                        
+                      
+                        @*
+
+                            @if (!Request.IsAuthenticated)
+                            {
+                                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                                <li>@Html.ActionLink("About Us", "Contact", "Home")</li>
+                            }
+                        *@
+                    </ul>
+               
+                    @Html.Partial("_LoginPartial")
+                </div>
+            </div>
+        </div>
+    }
+
+    <div class="container-fluid font-fammily">
+        @RenderBody()
+        <!-- <hr />
+
+                  <footer>
+             <p>&copy; @DateTime.Now.Year -College of Arts, Media and Technology</p>
+         </footer>    -->
+    </div>
+
+
+
+
+
+
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

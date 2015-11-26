@@ -1,0 +1,55 @@
+﻿@model IEnumerable<WebApplication_FitToFast.Models.UserManageModels>
+@{
+    ViewBag.Title = "Index";
+}
+@using (Html.BeginForm())
+{
+    <body class="bg-Usermanage">
+        <div class="padding-register" style="margin-left:100px; margin-right:100px; border-radius:15px;">
+            <div >
+                <h2 class="login-font " style="margin-left:145px;">Employee Management</h2>
+
+                <p style="margin-left:145px;">
+                    @Html.ActionLink("Add new employee", "Register", "Account", null, new { @class = "my-class font-fammily" })
+                </p>
+                <table class="table font-fammily" style="text-align:center;">
+                    <tr>
+                        <th style="color:#d5d5d5; text-align:center;">
+                            @Html.Raw("Username")
+                        </th>
+
+                        <th style="color:#d5d5d5; text-align:center;">
+                            @Html.Raw("User Roles")
+                        </th>
+                        <th>
+
+                        </th>
+                    </tr>
+
+                    @foreach (var item in Model)
+                    {
+                        <tr style="color:#d5d5d5">
+                            <td>
+                                @Html.DisplayFor(modelItem => item.User.UserName)
+                            </td>
+
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Roles.Name)
+                            </td>
+                            <td>
+                                <a href="~/UserManage/Edit/@item.User.Id" class="btn btn-circle btn-circle-sm">Edit</a>|
+                                <a href="~/UserManage/Delete/@item.User.Id" class="btn btn-circle btn-circle-sm">Delete</a>
+                            </td>
+                        </tr>
+                    }
+
+                </table>
+            </div>
+        </div>
+       
+      
+    </body>
+  
+}
+
+

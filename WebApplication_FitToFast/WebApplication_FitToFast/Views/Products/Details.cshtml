@@ -1,0 +1,126 @@
+﻿@model WebApplication_FitToFast.Models.Inventory
+
+@{
+    ViewBag.Title = "Details";
+}
+<body class="bg-stockManagr">
+    <h2 style="margin-left:300px" class="login-font">Details Of Product</h2>
+  <hr class="hr-1" style="align-content:center" />
+
+    <div class="row font-fammily" style="margin-left:200px">
+        <div class="col-lg-12">
+            <div class="row">
+                <dl class="dl-horizontal left col-xs-7 col-sm-5 padding-content" style="color:#c8c8c8">
+                    <br />
+                    <dt>
+                        @Html.Label("Product name")
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.pName)
+                    </dd>
+                    <br />
+                    <dt>
+                        @Html.Label("Product detail")
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.pDetail)
+                    </dd>
+                    <br />
+                    <dt>
+                        @Html.Label("Product price")
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.pPrice)
+                    </dd>
+                    <br />
+                    <dt>
+                        @Html.DisplayNameFor(model => model.XS)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.XS)
+                    </dd>
+                    <br />
+                    <dt>
+                        @Html.DisplayNameFor(model => model.S)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.S)
+                    </dd>
+                    <br />
+                    <dt>
+                        @Html.DisplayNameFor(model => model.M)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.M)
+                    </dd>
+                    <br />
+                    <dt>
+                        @Html.DisplayNameFor(model => model.L)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.L)
+                    </dd>
+                    <br />
+                    <dt>
+                        @Html.DisplayNameFor(model => model.XL)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.XL)
+                    </dd>
+                    <br />
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Date)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.Date)
+                    </dd>
+                    <br />
+
+                    <p style="margin-left:90px;">
+                        <a href="~/Products/Edit/@Model.pId" class="btn btn-circle-sm">Edit</a>
+                       @*@Html.ActionLink("Edit", "Edit", new { id = Model.pId })*@  | 
+                       @*@Html.ActionLink("Back", "Index")*@ 
+                        <a href="~/Products/Index" class="btn btn-circle-sm ">Back</a>
+                    </p>
+                </dl>
+               
+                <div class="col-xs-3 col-sm-2">
+                    <dd>
+                        <div class="testimonials">
+                            <div class="stock-img-round">
+                                <img src="~/ProductImages/@Model.pImage" width="250" height="250" />
+                            </div>
+                        </div>
+                    </dd>
+
+                    <dd>
+                        <div class="testimonials">
+                            <div class="stock-img-round">
+                                <img src="~/TextureImages/@Model.pTexture" width="250" height="250" />
+                            </div>
+                        </div>
+
+                    </dd>
+                </div>
+                <div class="col-xs-2 col-sm-4" >
+                    <div style="margin-left:150px;align-content:center;">
+                        @using WebApplication_FitToFast.Helpers;
+                        @Html.GenerateQrCode(Model.pId.ToString())
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+
+
+</body>

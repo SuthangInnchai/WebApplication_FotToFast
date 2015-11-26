@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewBag.Title = "StatisticIndex";
+}
+
+
+<script src="~/Scripts/jquery-2.1.1.min.js"></script>
+<script src="~/Scripts/jsapi.js"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1.1','packages':['bar']}]}"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1.1','packages':['line']}]}"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1.1','packages':['corechart', 'timeline']}]}"></script>
+
+<script src="~/Scripts/Bar_Chart.js"></script>
+<body>
+    <h2 class="login-font" style="margin-left:150px;">Statistic All Product</h2>
+
+    <div style="margin-left:350px">
+        <input class="btn btn-default" type="button" id="btnBarChart" value="Statistic of import product" />
+        <input class="btn btn-default" type="button" id="btnBarChart2" value="Total balance product in the stock" />
+        <input class="btn btn-default" type="button" id="btnForSale" value="Sale Statistic" />
+    </div><br />
+    <div style="margin-left:250px">
+        
+                @*
+            <input class="btn btn-default" type="button" id="btnForDay" value="Sales Statistic in Each day" />
+        <input class="btn btn-default" type="button" id="btnForWeek" value="Sales Statistic in Each week" />
+        <input class="btn btn-default" type="button" id="btnForMonth" value="Sales Statistic in Each month" />
+        <input class="btn btn-default" type="button" id="btnForYear" value="Sales Statistic in Each year" />
+                *@
+        
+    </div><br />
+
+    <div id="barchart" style="margin-left:250px"></div>
+
+</body>
+
+   
+

@@ -1,0 +1,63 @@
+﻿@using WebApplication_FitToFast.Models
+@model LoginViewModel
+@{
+    ViewBag.Title = "Log in";
+}
+<body class="bg-login">
+
+<div style="margin-top:170px;">
+    <h2 class="col-lg-4 col-lg-offset-7 login-font">@ViewBag.Title.</h2>
+
+    <div class="row">
+        <div class="login-font-sub col-lg-8 col-md-offset-7">
+            <section id=" loginform">
+            @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+            {
+                @Html.AntiForgeryToken()
+                <br />
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                <div class="form-group text-content">
+                    @Html.LabelFor(m => m.Username, new { @class = "col-md-2 control-label" })
+                    <div class="col-md-9">
+                        @Html.TextBoxFor(m => m.Username, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Username, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group text-content">
+                    @Html.LabelFor(m => m.Password, new { @class = "col-md-2 control-label" })
+                    <div class="col-md-9">
+                        @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-3 col-md-9">
+                        <div class="checkbox">
+                            @Html.CheckBoxFor(m => m.RememberMe)
+                            @Html.LabelFor(m => m.RememberMe)
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-3 col-md-9">
+                        <input type="submit" value="Log in" class="btn btn-default" /> | @*@Html.ActionLink("Sign Up", "Register")*@ @Html.ActionLink("Back", "Index", "Home")
+                    </div>
+                </div>
+
+                @* Enable this once you have account confirmation enabled for password reset functionality
+                <p>
+                    @Html.ActionLink("Forgot your password?", "ForgotPassword")
+                </p>*@
+            }
+            </section>
+        </div>
+
+    </div>
+
+</div>
+   
+</body>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,138 @@
+﻿@model WebApplication_FitToFast.Models.Inventory
+
+@{
+    ViewBag.Title = "Edit";
+}
+<body class="bg-stockManagr">
+    <div class="padding-content" style="margin-left:200px; width:1000px;">
+        <h2 class="login-font" style="text-align:center; font-family:'Century Gothic';">Edit Detail Of Product</h2>
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="row font-fammily" style="color:#d5d5d5;">
+                <div class="col-sm-12" style="margin-left:100px;">
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-6">
+                            <div class="form-horizontal">
+                                <hr />
+                                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                @Html.HiddenFor(model => model.pId)
+
+                                <div class="form-group">
+                                    @Html.Label("Product name", htmlAttributes: new { @class = "control-label col-md-5" })
+                                    <div class="col-md-7">
+                                        @Html.EditorFor(model => model.pName, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.pName, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.Label("Product detail", htmlAttributes: new { @class = "control-label col-md-5" })
+                                    <div class="col-md-7">
+                                        @Html.EditorFor(model => model.pDetail, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.pDetail, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.Label("Product price", htmlAttributes: new { @class = "control-label col-md-5" })
+                                    <div class="col-md-7">
+                                        @Html.EditorFor(model => model.pPrice, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.pPrice, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.XS, htmlAttributes: new { @class = "control-label col-md-5" })
+                                    <div class="col-md-7">
+                                        @Html.DisplayFor(model => model.XS, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.HiddenFor(model => model.XS)
+                                        @Html.ValidationMessageFor(model => model.XS, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.S, htmlAttributes: new { @class = "control-label col-md-5" })
+                                    <div class="col-md-7">
+                                        @Html.DisplayFor(model => model.S, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.HiddenFor(model => model.S)
+                                        @Html.ValidationMessageFor(model => model.S, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.M, htmlAttributes: new { @class = "control-label col-md-5" })
+                                    <div class="col-md-7">
+                                        @Html.DisplayFor(model => model.M, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.HiddenFor(model => model.M)
+                                        @Html.ValidationMessageFor(model => model.M, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.L, htmlAttributes: new { @class = "control-label col-md-5" })
+                                    <div class="col-md-7">
+                                        @Html.DisplayFor(model => model.L, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.HiddenFor(model => model.L)
+                                        @Html.ValidationMessageFor(model => model.L, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.XL, htmlAttributes: new { @class = "control-label col-md-5" })
+                                    <div class="col-md-7">
+                                        @Html.DisplayFor(model => model.XL, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.HiddenFor(model => model.XL)
+                                        @Html.ValidationMessageFor(model => model.XL, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.Date, htmlAttributes: new { @class = "control-label col-md-5" })
+                                    <div class="col-md-7">
+                                        @Html.DisplayFor(model => model.Date, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.HiddenFor(model => model.Date)
+                                        @Html.ValidationMessageFor(model => model.Date, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-md-offset-3 col-md-10">
+                                        <input type="submit" value="Done" class="btn btn-default btn-circle-sm" /> | @Html.ActionLink("Back", "Index", null, new { @class="btn btn-default btn-circle-sm"})
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-1 col-sm-3">
+                            <div class="form-group">
+                                <div class="col-md-7">
+                                    <div class="testimonials">
+                                        <div class="stock-img-round">
+                                            <img src="~/ProductImages/@Model.pImage" width="250" height="250" />
+                                            @Html.HiddenFor(model => model.pImage)
+                                            @Html.ValidationMessageFor(model => model.pImage, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-md-7">
+                                    <div class="testimonials">
+                                        <div class="stock-img-round">
+                                            <img src="~/TextureImages/@Model.pTexture" width="250" height="250" />
+                                            @Html.HiddenFor(model => model.pTexture)
+                                            @Html.ValidationMessageFor(model => model.pTexture, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        }
+    </div>
+    </body>

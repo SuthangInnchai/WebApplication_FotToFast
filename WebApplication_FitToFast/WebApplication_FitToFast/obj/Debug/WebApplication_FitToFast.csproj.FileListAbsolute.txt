@@ -1,0 +1,158 @@
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\WebApplication_FitToFast.dll.config
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\WebApplication_FitToFast.dll
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\WebApplication_FitToFast.pdb
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\Antlr3.Runtime.dll
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\EntityFramework.dll
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\EntityFramework.SqlServer.dll
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Owin.dll
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Owin.Security.dll
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\Newtonsoft.Json.dll
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\Owin.dll
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\System.Web.Helpers.dll
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\System.Web.Mvc.dll
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\System.Web.Optimization.dll
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\System.Web.Razor.dll
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\System.Web.WebPages.Deployment.dll
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\System.Web.WebPages.dll
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\System.Web.WebPages.Razor.dll
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\WebGrease.dll
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\zxing.dll
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\zxing.presentation.dll
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\EntityFramework.xml
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\EntityFramework.SqlServer.xml
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\System.Web.Helpers.xml
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\System.Web.Mvc.xml
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\System.Web.Optimization.xml
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\System.Web.Razor.xml
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\System.Web.WebPages.xml
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\System.Web.WebPages.Deployment.xml
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\System.Web.WebPages.Razor.xml
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\Antlr3.Runtime.pdb
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\zxing.pdb
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\zxing.xml
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\zxing.presentation.pdb
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\zxing.presentation.xml
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\Newtonsoft.Json.xml
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Owin.xml
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Owin.Security.xml
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.Migrations.AdminRole.resources
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.Migrations.EmployeeRole.resources
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.Migrations.AddColumnNameAndLastname.resources
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.Migrations.StockManagement.resources
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.Migrations.UpdateUnventory.resources
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.Migrations.ChangeSaleHistory.resources
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.Migrations.changeInventory.resources
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.Migrations.changePurchaseHistory.resources
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.Migrations.updatemigration.resources
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.Migrations.update.resources
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.Migrations.updateData.resources
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.Migrations.updateDatabase.resources
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.Migrations.updb.resources
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.Migrations.updatecode.resources
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.Migrations.updatecode2.resources
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.Migrations.updatecode3.resources
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.Migrations.updatecode4.resources
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.csproj.GenerateResource.Cache
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.dll
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.pdb
+C:\Users\temp\Desktop\OK CODE\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.csprojResolveAssemblyReference.cache
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\WebApplication_FitToFast.dll.config
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\WebApplication_FitToFast.dll
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\WebApplication_FitToFast.pdb
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\Antlr3.Runtime.dll
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\EntityFramework.dll
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\EntityFramework.SqlServer.dll
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Owin.dll
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Owin.Security.dll
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\Newtonsoft.Json.dll
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\Owin.dll
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\System.Web.Helpers.dll
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\System.Web.Mvc.dll
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\System.Web.Optimization.dll
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\System.Web.Razor.dll
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\System.Web.WebPages.Deployment.dll
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\System.Web.WebPages.dll
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\System.Web.WebPages.Razor.dll
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\WebGrease.dll
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\zxing.dll
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\zxing.presentation.dll
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\EntityFramework.xml
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\EntityFramework.SqlServer.xml
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\System.Web.Helpers.xml
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\System.Web.Mvc.xml
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\System.Web.Optimization.xml
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\System.Web.Razor.xml
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\System.Web.WebPages.xml
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\System.Web.WebPages.Deployment.xml
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\System.Web.WebPages.Razor.xml
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\Antlr3.Runtime.pdb
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\zxing.pdb
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\zxing.xml
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\zxing.presentation.pdb
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\zxing.presentation.xml
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\Newtonsoft.Json.xml
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Owin.xml
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Owin.Security.xml
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.csprojResolveAssemblyReference.cache
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.Migrations.AdminRole.resources
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.Migrations.EmployeeRole.resources
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.Migrations.AddColumnNameAndLastname.resources
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.Migrations.StockManagement.resources
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.Migrations.UpdateUnventory.resources
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.Migrations.ChangeSaleHistory.resources
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.Migrations.changeInventory.resources
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.Migrations.changePurchaseHistory.resources
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.Migrations.updatemigration.resources
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.Migrations.update.resources
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.Migrations.updateData.resources
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.Migrations.updateDatabase.resources
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.Migrations.updb.resources
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.Migrations.updatecode.resources
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.Migrations.updatecode2.resources
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.Migrations.updatecode3.resources
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.Migrations.updatecode4.resources
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.csproj.GenerateResource.Cache
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.dll
+C:\Users\thangta\Desktop\Senior_Project\WebApplication_FitToFast\WebApplication_FitToFast\obj\Debug\WebApplication_FitToFast.pdb

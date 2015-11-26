@@ -1,0 +1,161 @@
+﻿@model WebApplication_FitToFast.Models.SalesHistory
+
+@{
+    ViewBag.Title = "Create";
+}
+<body class="bg-inentoy">
+    <h2 class="login-font" style="margin-left:400px">Update Inventory</h2>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <div class="row">
+            <div class="col-lg-10">
+                <div class="row">
+                    <div class="col-xs-2 col-sm-10">
+                        <div class="form-horizontal" style="margin-left:300px;">
+                            <hr />
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Id, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.Id, new { htmlAttributes = new { @Value = ViewBag.ItemID, @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.Id, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.ClothTypeId, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.ClothTypeId, new { htmlAttributes = new { @Value = ViewBag.ItemTypeId, @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.ClothTypeId, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.ProductName, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.ProductName, new { htmlAttributes = new { @Value = ViewBag.ItemName, @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.ProductName, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.ProductDetail, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.ProductDetail, new { htmlAttributes = new { @Value = ViewBag.ItemDetail, @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.ProductDetail, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Price, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.Price, new { htmlAttributes = new { @Value = ViewBag.ItemPrice, @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                            @* <dt>
+                @Html.DisplayNameFor(model => model.Id)
+            </dt>
+
+            <dd>
+
+                @Html.ViewBag.ItemID
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.ClothTypeId)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ClothTypeId)
+                @Html.ViewBag.ItemTypeId
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.ProductName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ProductName)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.ProductDetail)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ProductDetail)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Price)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Price)
+            </dd>
+                            *@
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Size, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-10">
+                                    @using WebApplication_FitToFast.Helpers
+                                    @Html.DropDownListFor(model => model.Size, SizeHelper.GetSize(), new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.Size, "", new { @class = "text-danger" })
+
+
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Quantity, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-10">
+
+                                    @Html.EditorFor(model => model.Quantity, new { htmlAttributes = new { @class = "form-control" } })
+                                    <br />
+                                    <text style="color:red;">Size in stock</text>
+
+                                    <table style="color:red">
+                                        <tr> <font color="#ff0000">XS: @Html.ViewBag.ItemXS<bn />|</font> </tr>
+                                        <tr><bn /> <font color="#ff0000">S: @Html.ViewBag.ItemS<bn />|</font></tr>
+                                        <tr><bn /><font color="#ff0000"> M: @Html.ViewBag.ItemM<bn />|</font></tr>
+                                        <tr><bn /> <font color="#ff0000">L: @Html.ViewBag.ItemL<bn />|</font></tr>
+                                        <tr><bn /> <font color="#ff0000">XL: @Html.ViewBag.ItemXL</font><bn /></tr>
+                                    </table>
+                                    @Html.ValidationMessageFor(model => model.Quantity, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+
+                                <div class="col-md-offset-2 col-md-10">
+                                    <input type="submit" value="Done" class="btn btn-default" /> | @Html.ActionLink("Back", "Index")
+                                </div>
+                            </div>
+                        </div>
+
+                    
+
+                    </div>
+                    <div class="col-xs-1 col-sm-1" >
+                        <div class="testimonials">
+                            <div class="stock-img-round">
+                                <img alt="" src="~/ProductImages/@ViewBag.ItemImg" width="250" height="250" style="margin-right:200px">
+                            </div>
+                        </div>
+
+                        <div class="testimonials">
+                            <div class="stock-img-round">
+                                <img alt="" src="~/TextureImages/@ViewBag.ItemImgTexture" width="250" height="250">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+   
+</body>

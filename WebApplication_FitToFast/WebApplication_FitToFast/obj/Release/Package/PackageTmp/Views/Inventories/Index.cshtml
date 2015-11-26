@@ -1,0 +1,29 @@
+﻿@model IEnumerable<WebApplication_FitToFast.Models.Inventory>
+
+@{
+    ViewBag.Title = "Index";
+}
+<body class="bg-inentoy">
+    <h2 class="login-font" style="margin-left:150px">Inventory List</h2>
+<br />
+    <table style="margin-left:150px" width="50%">
+        @foreach (var item in Model)
+        {
+            <td>
+                <div class="testimonials">
+                    <div class="stock-img-round">
+                        <img alt="" src="~/ProductImages/@item.pImage" width="250" height="250">
+                    </div>
+                </div>
+                <h5>@Html.DisplayFor(modelItem => item.pName)</h5>
+                <h6>@Html.DisplayFor(modelItem => item.pDetail)</h6>
+                <h6>@Html.DisplayFor(modelItem => item.pPrice)</h6>
+                @Html.ActionLink("Update inventory", "Create", new { id = item.pId })
+
+            </td>
+        }
+    </table>
+</body>
+
+
+
